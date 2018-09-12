@@ -38,7 +38,7 @@ A cada segundo decorrido, será chamada uma função aleatória que sorteia um v
 # Cliente entra na fila
 Um cliente será representado pelo horário em que ele entrou na fila. Logo, inserir um cliente na fila equivale a simplesmente inserir nela o valor corrente do cronômetro.
 
-# Inicia a transação
+# Iniciando a transação
 Quando um guichê é liberado e um cliente se dirige a ele, é necessário saber por quanto tempo ele ficará ocupado. Esse tempo depende da transação realizada pelo cliente. As transações realizadas são aleatórias.
 Para saber qual será a transação, um número aleatório entre 0 e 2 é gerado. Caso seja gerado o valor 0, a transação será um saque, caso seja gerado o valor 1, a transação será um depósito, e caso seja gerado o valor 2, a transação será um pagamento.
 
