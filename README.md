@@ -28,21 +28,21 @@ Na simulação a ser realizada, há dois eventos importantes:
 
 Em cada instante de tempo, qualquer combinação desses eventos pode ocorrer (ou mesmo nenhum deles).
 
-# Terminou o expediente?
+## Terminou o expediente?
 O término do expediente será indicado pelo cronômetro, que marcará o tempo em segundos. O período de atendimento da agência é de 6 horas, o que corresponde a 21600 segundos. O expediente termina após este tempo decorrido.
 
-# Chegou um cliente?
+## Chegou um cliente?
 Para que a simulação seja o mais próximo da realidade, será adotado um valor aleatório para simular a chegada do cliente.
 A cada segundo decorrido, será chamada uma função aleatória que sorteia um valor entre 0 e 29. Caso o número sorteado seja o número 0, isso indica que o cliente chegou. Caso contrário, o cliente não chegou.
 
-# Cliente entra na fila
+## Cliente entra na fila
 Um cliente será representado pelo horário em que ele entrou na fila. Logo, inserir um cliente na fila equivale a simplesmente inserir nela o valor corrente do cronômetro.
 
-# Iniciando a transação
+## Iniciando a transação
 Quando um guichê é liberado e um cliente se dirige a ele, é necessário saber por quanto tempo ele ficará ocupado. Esse tempo depende da transação realizada pelo cliente. As transações realizadas são aleatórias.
 Para saber qual será a transação, um número aleatório entre 0 e 2 é gerado. Caso seja gerado o valor 0, a transação será um saque, caso seja gerado o valor 1, a transação será um depósito, e caso seja gerado o valor 2, a transação será um pagamento.
 
-# Finalização do expediente
+## Finalização do expediente
 Ao final do expediente, caso ainda haja clientes na fila, eles devem ser atendidos.
 Quando o expediente tiver terminado e não houver mais clientes na fila, as seguintes informações devem ser impressas:
 
