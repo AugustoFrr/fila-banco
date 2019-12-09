@@ -1,6 +1,8 @@
 # fila-banco
 Simulador de fila de banco utilizando uma lista dinâmica em Java.
 
+**[Clique para acessar o projeto novo, feito em JavaScript.](https://github.com/AugustoFrr/fila-banco-js)**
+
 **Está é a minha solução para o problema:**
 
 Implementar um algoritmo que determine o tempo médio que um cliente permanece na fila de uma agência bancária. Quando um cliente entra na fila, o horário é anotado. Quando ele sai, o tempo que ele permaneceu na fila é calculado e adicionado ao tempo total de espera. Assim, no final do expediente, é possível determinar quanto tempo, em média, cada cliente teve que aguardar para ser atendido.
